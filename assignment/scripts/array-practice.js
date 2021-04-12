@@ -82,3 +82,8 @@ console.log('The animals are now', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array &
 //     log both the food removed and the updated array
+
+removedFood2 = foodArray.shift();
+console.log('Removed the first food:', removedFood2);
+console.log('The food array now reads:', foodArray);
+console.log('The food array now reads:', foodArray.join(", ")); // now with 25% more readability!
